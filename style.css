@@ -25,12 +25,24 @@ img {
 
 .espaco-botoes {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 10px 20px;
+    align-items: center;row-gap: 15px;
+}
+
+.botoes-principais {
+    display: flex;
+    column-gap: 10px;
 }
 
 .botao {
     padding: 9px;
-    background-color: #B86CCD ;
+    background-color: #B86CCD;
+    color: white;
+}
+
+.botao2 {
+    padding: 9px;
+    background-color: #EC434C;
+    color: white;
 }
