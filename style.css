@@ -42,14 +42,14 @@ img {
 ul {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 15px;
+    gap: 15px 10px;
 }
 
 li {
     background-color: #B86CCD;
+    flex-grow: 1;
     color: white;
     padding: 10px;
-    margin: 0px 5px;
     width: 90px;
     text-align: center;
 }
@@ -57,4 +57,6 @@ li {
 .button-reg {
     background-color: #EC434C;
     flex-grow: 1;
+    font-size: 0.9em;
+    font-weight: 500;
 }
